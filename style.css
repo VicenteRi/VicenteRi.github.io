@@ -28,3 +28,45 @@ nav{
 body{
     background: #1c1c5c;
 }
+
+img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 10px;
+    top: 590px;
+}
+div{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: xxx-large;
+    animation: 2s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translate(-50%,80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
