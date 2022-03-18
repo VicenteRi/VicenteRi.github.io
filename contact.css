@@ -1,0 +1,116 @@
+.nav-enlace{
+    background: #181850;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-papu{
+    float: right;
+    margin: -10px 15px 0 0;
+    background: #181850;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-papu:hover{
+    background: black;
+}
+.nav-enlace:hover{
+    background: black;
+}
+nav{
+    background: #181850;
+    padding: 10px 30px;
+}
+
+body{
+    background: #1c1c5c;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 10px;
+    top: 590px;
+}
+div{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: xxx-large;
+    animation: 2s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translate(-50%,80%);
+    }
+    20% {
+      opacity: 0;   
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+.email{
+    background: #2d2d7a;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 24.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 30px;
+    animation: 2s anim-lineUp;
+    border: 3px solid rgb(28, 27, 54);
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.text{
+    margin: 0;
+    position: absolute;
+    top: 31%;
+    left: 18%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    animation: 2s anim-lineUp;
+}
+
+.button{
+    background: #2d2d7a;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 31.7%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(28, 27, 54);
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    animation: 2s anim-lineUp;
+}
