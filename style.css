@@ -1,0 +1,30 @@
+.nav-enlace{
+    background: #181850;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-papu{
+    float: right;
+    margin: -10px 15px 0 0;
+    background: #181850;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-papu:hover{
+    background: black;
+}
+.nav-enlace:hover{
+    background: black;
+}
+nav{
+    background: #181850;
+    padding: 10px 30px;
+}
+
+body{
+    background: #1c1c5c;
+}
