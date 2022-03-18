@@ -53,6 +53,8 @@ div{
     animation: 2s anim-lineUp;
 }
 
+
+
 @keyframes anim-lineUp {
     0% {
       opacity: 0;
